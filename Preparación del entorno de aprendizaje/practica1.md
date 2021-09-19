@@ -11,47 +11,16 @@ Este Software los podemos descargar en esta [página](https://www.vmware.com/es/
 
 Dependerá del sistema operativo en el que estemos trabajando.
 
+Cuando tengamos **VMware** como lo tenemos en la imagen anterior, pasaremos a la instalación de kaliLinux. Para ahorrarnos tiempo descargaremos una imagen ya preparada y optima.
 
+Lo descargaremos en la siguiente [página](https://www.kali.org/get-kali/#kali-virtual-machines).
 
-Cuando hemos terminado de instalar las máquinas virtuales tenemos que asignarle una **IP** a cada máquina virtual.Para ello nos metemos en cada máquina en el fichero:*/etc/network/interface*.
+![img](https://github.com/salva12345678/Ciberseguridad/blob/main/Preparaci%C3%B3n%20del%20entorno%20de%20aprendizaje/Foto2.PNG)
 
-Añadimos en el **enp0s8**.
-Tenemos que decir que a cada máquina se le ha asignado una **IP** distinta.Maquina 1(192.168.1.100) y Maquina 2(192.168.1.102).
+Con el OVA descargado le damos doble clip y se nos abrir ́a el virtualBox. Nos sale todas las opciones
+posibles para que la podamos modificar y lo  ́unico que tenemos que hacer es importar. Tenemos que
+esperar unos minutos y ya la tendremos lista.
 
-![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_2.png)
+El usuario y contraseña suele ser kali y kali. Ya tendriamos nuestra máquina preparada.
 
-Después de ello tenemos que reiniciar el servicio ya que sino no tendremos servicio a Internet.
-
-Para ello escribimos en la terminal-->*systemctl restart networking.service*.
-
-![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_3.png)
-
-Ahora podemos llevar a cabo la instalación del **Apache**,**Php** y **Mysql**.
-
-Ahora debemos ver la versión del **Apache** instalado y ver si está en ejecución.
-
-![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_4.png)
-
-Tenemos que crearnos un *Html* en el directorio  **/var/www** y con el comando *curl* mostrar el fichero por pantalla.
-
-Básicamente en cada máquina virtual hacemos un *curl* de la dirección del servidor añadiendo el nombre del fichero--> curl htpp://192.168.1.100/hola.html y curl htpp://192.168.1.102/hola.html
-
-**Maquina 1:**
-
-![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_6.png)
-
-**Maquina 2:**
-
-![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_7.png)
-
-Por último tenemos que comprobar que funciona el *ssh* para desde la máquina 1 o 2  poder conectarnos a la otra o viceversa.
-
-Lo único que tenemos que hacer es desde la *Maquina 1* y la *Máquina 2* --> ssh 192.168.1.100 y ssh 192.168.1.102 de forma respectiva.
-
-**Maquina 1:**
-
-![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_8.png)
-
-**Maquina 2:**
-
-![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_9.png)
+![img](https://github.com/salva12345678/Ciberseguridad/blob/main/Preparaci%C3%B3n%20del%20entorno%20de%20aprendizaje/Foto3.PNG)
