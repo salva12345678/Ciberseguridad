@@ -1,9 +1,9 @@
 # PRACTICA 1:Preparación del entorno de aprendizaje.
 ## 1 Sesión.
 
-La practica consiste en llevar a cabo la instalación de dos máquinas virtuales y que tengamos instalado el **Apache**,**Php** y **Mysql**.
+La primera sesión tratará de como instalar las máquinas necesarias para que podamos empezar a trabajar.
 
-Para ello hemos decidido usar el **VirtualBox**.
+Para ello hemos decidido usar el Software de virtualización **VMware**. 
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica1/Foto_1.png)
 
