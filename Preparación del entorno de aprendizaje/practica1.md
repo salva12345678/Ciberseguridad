@@ -3,9 +3,15 @@
 
 La primera sesión tratará de como instalar las máquinas necesarias para que podamos empezar a trabajar.
 
-Para ello hemos decidido usar el Software de virtualización **VMware**. 
+Para ello hemos decidido usar el Software de virtualización **VMware**.
 
-![img](https://github.com/salva12345678/SWAP/blob/master/practica1/Foto_1.png)
+![img](https://github.com/salva12345678/Ciberseguridad/blob/main/Preparaci%C3%B3n%20del%20entorno%20de%20aprendizaje/Foto1.PNG)
+
+Este Software los podemos descargar en esta [página](https://www.vmware.com/es/products/workstation-player/workstation-player-evaluation.html).
+
+Dependerá del sistema operativo en el que estemos trabajando.
+
+
 
 Cuando hemos terminado de instalar las máquinas virtuales tenemos que asignarle una **IP** a cada máquina virtual.Para ello nos metemos en cada máquina en el fichero:*/etc/network/interface*.
 
